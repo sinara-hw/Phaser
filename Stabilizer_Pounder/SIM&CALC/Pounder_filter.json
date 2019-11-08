@@ -1,0 +1,68 @@
+{
+	"Name": "Pounder",
+	"Description": "mixer filter",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances"
+		],
+		"filterType": "lowPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 100000,
+			"stopbandAttenuation": -20,
+			"stopbandFrequency": 300000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": "51",
+			"centerFrequency": null
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "RecommendedSpecificComponents",
+			"optimizationPreference": "specific",
+			"compensateForGbw": false,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 54,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "firstOrder",
+					"opAmps": "ADA4625-1"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 53,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "sallenKey",
+					"opAmps": "ADA4625-1"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "1%",
+			"capacitorTolerance": "5%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E24",
+			"capacitorPreferredSeries": "E12",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2019-09-21 07:40:37 PM",
+	"UpdatedDate": "2019-09-21 07:40:37 PM"
+}
