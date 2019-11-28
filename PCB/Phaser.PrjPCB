@@ -796,10 +796,6 @@ Variation33=Designator=R253|UniqueId=\SFQGSODT\STKHSYBC|Kind=1|AlternatePart=
 Variation34=Designator=R254|UniqueId=\SFQGSODT\YFXRWYYJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Phaser\BGA Escape Route - Phaser.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1020,6 +1016,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1382,6 +1384,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1433,6 +1440,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1562,6 +1579,9 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1629,6 +1649,9 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1637,33 +1660,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1674,15 +1697,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1690,10 +1713,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1731,7 +1754,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1776,6 +1799,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1785,17 +1809,18 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
-NetClassManualEnabled=0
+NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1814,33 +1839,34 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=P1V2A|NetColor=$006EFF6E
-Net2=NetName=P5V5|NetColor=$00FF6EFF
-Net3=NetName=NetC248_2|NetColor=$00433532
-Net4=NetName=P11V5A|NetColor=$007F7B9A
-Net5=NetName=NetC250_1|NetColor=$008D96A6
-Net6=NetName=P3V3_MP|NetColor=$006EFF6E
-Net7=NetName=P1V8|NetColor=$0000BE00
-Net8=NetName=P3V3|NetColor=$006EFF6E
-Net9=NetName=P2V5|NetColor=$00FF6E6E
-Net10=NetName=GND|NetColor=$000000BF
-Net11=NetName=P1V8A|NetColor=$0000BE00
-Net12=NetName=NetC247_2|NetColor=$00433532
+Net1=NetName=GND|NetColor=$000000BF
+Net2=NetName=N11V5A|NetColor=$00798417
+Net3=NetName=N12V0|NetColor=$00575860
+Net4=NetName=N12V0A|NetColor=$00433532
+Net5=NetName=NetC183_2|NetColor=$008D96A6
+Net6=NetName=NetC247_2|NetColor=$00433532
+Net7=NetName=NetC248_2|NetColor=$00433532
+Net8=NetName=NetC250_1|NetColor=$008D96A6
+Net9=NetName=P11V5A|NetColor=$007F7B9A
+Net10=NetName=P12V0|NetColor=$000098C3
+Net11=NetName=P12V0A|NetColor=$008D96A6
+Net12=NetName=P1V0|NetColor=$006E6EFF
 Net13=NetName=P1V2|NetColor=$006EFF6E
-Net14=NetName=P1V0|NetColor=$006E6EFF
-Net15=NetName=N11V5A|NetColor=$00798417
-Net16=NetName=P5V5A|NetColor=$00FF6EFF
-Net17=NetName=N12V0|NetColor=$00575860
-Net18=NetName=P3V3A|NetColor=$006EFF6E
-Net19=NetName=P1V5|NetColor=clYellow
-Net20=NetName=P12V0|NetColor=$000098C3
-Net21=NetName=P12V0A|NetColor=$008D96A6
+Net14=NetName=P1V2A|NetColor=$006EFF6E
+Net15=NetName=P1V5|NetColor=clYellow
+Net16=NetName=P1V8|NetColor=$0000BE00
+Net17=NetName=P1V8A|NetColor=$0000BE00
+Net18=NetName=P2V5|NetColor=$00FF6E6E
+Net19=NetName=P3V3|NetColor=$006EFF6E
+Net20=NetName=P3V3_MP|NetColor=$006EFF6E
+Net21=NetName=P3V3A|NetColor=$006EFF6E
 Net22=NetName=P5V0A|NetColor=$00FFFF6E
-Net23=NetName=N12V0A|NetColor=$00433532
-Net24=NetName=NetC183_2|NetColor=$008D96A6
+Net23=NetName=P5V5|NetColor=$00FF6EFF
+Net24=NetName=P5V5A|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
