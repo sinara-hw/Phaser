@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Phaser
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -868,7 +868,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Phaser
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -975,12 +975,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series Printer
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1047,6 +1077,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1605,6 +1641,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1673,6 +1711,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1820,6 +1860,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1840,6 +1881,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1858,33 +1900,34 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=NetC248_2|NetColor=$00433532
-Net2=NetName=P1V2A|NetColor=$006EFF6E
-Net3=NetName=P5V5|NetColor=$00FF6EFF
-Net4=NetName=P11V5A|NetColor=$007F7B9A
-Net5=NetName=NetC250_1|NetColor=$008D96A6
-Net6=NetName=P1V8|NetColor=$0000BE00
-Net7=NetName=P1V8A|NetColor=$0000BE00
-Net8=NetName=N12V0|NetColor=$00575860
-Net9=NetName=P2V5|NetColor=$00FF6E6E
-Net10=NetName=NetC247_2|NetColor=$00433532
-Net11=NetName=N11V5A|NetColor=$00798417
-Net12=NetName=GND|NetColor=$000000BF
+Net1=NetName=GND|NetColor=$000000BF
+Net2=NetName=N11V5A|NetColor=$00798417
+Net3=NetName=N12V0|NetColor=$00575860
+Net4=NetName=N12V0A|NetColor=$00433532
+Net5=NetName=NetC183_2|NetColor=$008D96A6
+Net6=NetName=NetC247_2|NetColor=$00433532
+Net7=NetName=NetC248_2|NetColor=$00433532
+Net8=NetName=NetC250_1|NetColor=$008D96A6
+Net9=NetName=P11V5A|NetColor=$007F7B9A
+Net10=NetName=P12V0|NetColor=$000098C3
+Net11=NetName=P12V0A|NetColor=$008D96A6
+Net12=NetName=P1V0|NetColor=$006E6EFF
 Net13=NetName=P1V2|NetColor=$006EFF6E
-Net14=NetName=P1V0|NetColor=$006E6EFF
-Net15=NetName=P3V3|NetColor=$006EFF6E
-Net16=NetName=P3V3_MP|NetColor=$006EFF6E
-Net17=NetName=P5V5A|NetColor=$00FF6EFF
-Net18=NetName=P3V3A|NetColor=$006EFF6E
-Net19=NetName=P12V0A|NetColor=$008D96A6
-Net20=NetName=P12V0|NetColor=$000098C3
-Net21=NetName=P1V5|NetColor=clYellow
+Net14=NetName=P1V2A|NetColor=$006EFF6E
+Net15=NetName=P1V5|NetColor=clYellow
+Net16=NetName=P1V8|NetColor=$0000BE00
+Net17=NetName=P1V8A|NetColor=$0000BE00
+Net18=NetName=P2V5|NetColor=$00FF6E6E
+Net19=NetName=P3V3|NetColor=$006EFF6E
+Net20=NetName=P3V3_MP|NetColor=$006EFF6E
+Net21=NetName=P3V3A|NetColor=$006EFF6E
 Net22=NetName=P5V0A|NetColor=$00FFFF6E
-Net23=NetName=N12V0A|NetColor=$00433532
-Net24=NetName=NetC183_2|NetColor=$008D96A6
+Net23=NetName=P5V5|NetColor=$00FF6EFF
+Net24=NetName=P5V5A|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

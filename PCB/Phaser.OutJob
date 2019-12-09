@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Phaser.OutJob
 Description=
-TargetOutputMedium=Schematics_Upconverter
+TargetOutputMedium=Schematics_Baseband
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -44,7 +44,7 @@ OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=Baseband
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=2
 OutputEnabled1_OutputMedium3=0
@@ -56,94 +56,94 @@ OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType2=PCB 3D Print
-OutputName2=PCB 3D Print
+OutputType2=PCB Print
+OutputName2=PCB Prints
 OutputCategory2=Documentation
-OutputDocumentPath2=
-OutputVariantName2=Baseband
-OutputEnabled2=0
+OutputDocumentPath2=Phaser.PcbDoc
+OutputVariantName2=
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=3
+OutputEnabled2_OutputMedium2=5
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
-OutputEnabled2_OutputMedium6=3
+OutputEnabled2_OutputMedium6=2
 OutputEnabled2_OutputMedium7=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.83|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
+Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=13562992|PrintAreaLowerLeftCornerY=37440945|PrintAreaUpperRightCornerX=82933071|PrintAreaUpperRightCornerY=77598425|Record=PcbPrintView
+Configuration2_Name2=OutputConfigurationParameter2
+Configuration2_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name3=OutputConfigurationParameter3
+Configuration2_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name4=OutputConfigurationParameter4
+Configuration2_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name5=OutputConfigurationParameter5
+Configuration2_Item5=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Top layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name6=OutputConfigurationParameter6
+Configuration2_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name7=OutputConfigurationParameter7
+Configuration2_Item7=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=Mid1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name8=OutputConfigurationParameter8
+Configuration2_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration2_Name9=OutputConfigurationParameter9
+Configuration2_Item9=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=Mid3|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name10=OutputConfigurationParameter10
+Configuration2_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration2_Name11=OutputConfigurationParameter11
+Configuration2_Item11=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=Mid4|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name12=OutputConfigurationParameter12
+Configuration2_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer7|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration2_Name13=OutputConfigurationParameter13
+Configuration2_Item13=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=5|Mirror=False|Name=MId2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name14=OutputConfigurationParameter14
+Configuration2_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
+Configuration2_Name15=OutputConfigurationParameter15
+Configuration2_Item15=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=6|Mirror=False|Name=Bot|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name16=OutputConfigurationParameter16
+Configuration2_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer
+Configuration2_Name17=OutputConfigurationParameter17
+Configuration2_Item17=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=7|Mirror=False|Name=Bot overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name18=OutputConfigurationParameter18
+Configuration2_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
+Configuration2_Name19=OutputConfigurationParameter19
+Configuration2_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
+PcbPrintPreferences2=
 OutputType3=PCB 3D Print
-OutputName3=Copy of PCB 3D Print
+OutputName3=PCB 3D Print
 OutputCategory3=Documentation
-OutputDocumentPath3=
+OutputDocumentPath3=Phaser.PcbDoc
 OutputVariantName3=Baseband
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
-OutputEnabled3_OutputMedium2=4
+OutputEnabled3_OutputMedium2=3
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
-OutputEnabled3_OutputMedium6=4
+OutputEnabled3_OutputMedium6=3
 OutputEnabled3_OutputMedium7=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.83|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
-OutputType4=PCB Print
-OutputName4=PCB Prints
+Configuration3_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
+OutputType4=PCB 3D Print
+OutputName4=Copy of PCB 3D Print
 OutputCategory4=Documentation
-OutputDocumentPath4=
-OutputVariantName4=
-OutputEnabled4=0
+OutputDocumentPath4=Phaser.PcbDoc
+OutputVariantName4=Baseband
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
-OutputEnabled4_OutputMedium2=5
+OutputEnabled4_OutputMedium2=4
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
-OutputEnabled4_OutputMedium6=2
+OutputEnabled4_OutputMedium6=4
 OutputEnabled4_OutputMedium7=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.83|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=13562992|PrintAreaLowerLeftCornerY=37440945|PrintAreaUpperRightCornerX=82933071|PrintAreaUpperRightCornerY=77598425|Record=PcbPrintView
-Configuration4_Name2=OutputConfigurationParameter2
-Configuration4_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name3=OutputConfigurationParameter3
-Configuration4_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration4_Name4=OutputConfigurationParameter4
-Configuration4_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration4_Name5=OutputConfigurationParameter5
-Configuration4_Item5=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Top layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name6=OutputConfigurationParameter6
-Configuration4_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration4_Name7=OutputConfigurationParameter7
-Configuration4_Item7=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=Mid1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name8=OutputConfigurationParameter8
-Configuration4_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
-Configuration4_Name9=OutputConfigurationParameter9
-Configuration4_Item9=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=Mid3|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name10=OutputConfigurationParameter10
-Configuration4_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
-Configuration4_Name11=OutputConfigurationParameter11
-Configuration4_Item11=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=Mid4|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name12=OutputConfigurationParameter12
-Configuration4_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer7|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
-Configuration4_Name13=OutputConfigurationParameter13
-Configuration4_Item13=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=5|Mirror=False|Name=MId2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name14=OutputConfigurationParameter14
-Configuration4_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
-Configuration4_Name15=OutputConfigurationParameter15
-Configuration4_Item15=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=6|Mirror=False|Name=Bot|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name16=OutputConfigurationParameter16
-Configuration4_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer
-Configuration4_Name17=OutputConfigurationParameter17
-Configuration4_Item17=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=7|Mirror=False|Name=Bot overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration4_Name18=OutputConfigurationParameter18
-Configuration4_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
-Configuration4_Name19=OutputConfigurationParameter19
-Configuration4_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
-PcbPrintPreferences4=
+Configuration4_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ViewConfig= 
 OutputType5=Assembly
 OutputName5=Assembly Drawings
 OutputCategory5=Assembly
@@ -280,7 +280,7 @@ OutputName10=Copy of Schematic Prints
 OutputCategory10=Documentation
 OutputDocumentPath10=[Project Physical Documents]
 OutputVariantName10=Upconverter
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=2
@@ -292,94 +292,94 @@ OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType11=PCB 3D Print
-OutputName11=Copy of Copy of PCB 3D Print
+OutputType11=PCB Print
+OutputName11=Copy of PCB Prints
 OutputCategory11=Documentation
-OutputDocumentPath11=
-OutputVariantName11=Upconverter
-OutputEnabled11=1
+OutputDocumentPath11=Phaser.PcbDoc
+OutputVariantName11=
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
-OutputEnabled11_OutputMedium3=3
+OutputEnabled11_OutputMedium3=5
 OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
-OutputEnabled11_OutputMedium7=3
+OutputEnabled11_OutputMedium7=2
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.83|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
+Configuration11_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=13562992|PrintAreaLowerLeftCornerY=37440945|PrintAreaUpperRightCornerX=82933071|PrintAreaUpperRightCornerY=77598425|Record=PcbPrintView
+Configuration11_Name2=OutputConfigurationParameter2
+Configuration11_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name3=OutputConfigurationParameter3
+Configuration11_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration11_Name4=OutputConfigurationParameter4
+Configuration11_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration11_Name5=OutputConfigurationParameter5
+Configuration11_Item5=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Top layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name6=OutputConfigurationParameter6
+Configuration11_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration11_Name7=OutputConfigurationParameter7
+Configuration11_Item7=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=Mid1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name8=OutputConfigurationParameter8
+Configuration11_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration11_Name9=OutputConfigurationParameter9
+Configuration11_Item9=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=Mid3|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name10=OutputConfigurationParameter10
+Configuration11_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration11_Name11=OutputConfigurationParameter11
+Configuration11_Item11=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=Mid4|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name12=OutputConfigurationParameter12
+Configuration11_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer7|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration11_Name13=OutputConfigurationParameter13
+Configuration11_Item13=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=5|Mirror=False|Name=MId2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name14=OutputConfigurationParameter14
+Configuration11_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
+Configuration11_Name15=OutputConfigurationParameter15
+Configuration11_Item15=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=6|Mirror=False|Name=Bot|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name16=OutputConfigurationParameter16
+Configuration11_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer
+Configuration11_Name17=OutputConfigurationParameter17
+Configuration11_Item17=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=7|Mirror=False|Name=Bot overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Name18=OutputConfigurationParameter18
+Configuration11_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
+Configuration11_Name19=OutputConfigurationParameter19
+Configuration11_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
+PcbPrintPreferences11=
 OutputType12=PCB 3D Print
-OutputName12=Copy of Copy of Copy of PCB 3D Print
+OutputName12=Copy of Copy of PCB 3D Print
 OutputCategory12=Documentation
-OutputDocumentPath12=
+OutputDocumentPath12=Phaser.PcbDoc
 OutputVariantName12=Upconverter
-OutputEnabled12=1
+OutputEnabled12=0
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
-OutputEnabled12_OutputMedium3=4
+OutputEnabled12_OutputMedium3=3
 OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=0
-OutputEnabled12_OutputMedium7=4
+OutputEnabled12_OutputMedium7=3
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.84|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.83|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
-OutputType13=PCB Print
-OutputName13=Copy of PCB Prints
+Configuration12_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
+OutputType13=PCB 3D Print
+OutputName13=Copy of Copy of Copy of PCB 3D Print
 OutputCategory13=Documentation
-OutputDocumentPath13=
-OutputVariantName13=
-OutputEnabled13=1
+OutputDocumentPath13=Phaser.PcbDoc
+OutputVariantName13=Upconverter
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
-OutputEnabled13_OutputMedium3=5
+OutputEnabled13_OutputMedium3=4
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
 OutputEnabled13_OutputMedium6=0
-OutputEnabled13_OutputMedium7=2
+OutputEnabled13_OutputMedium7=4
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.83|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=13562992|PrintAreaLowerLeftCornerY=37440945|PrintAreaUpperRightCornerX=82933071|PrintAreaUpperRightCornerY=77598425|Record=PcbPrintView
-Configuration13_Name2=OutputConfigurationParameter2
-Configuration13_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name3=OutputConfigurationParameter3
-Configuration13_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration13_Name4=OutputConfigurationParameter4
-Configuration13_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration13_Name5=OutputConfigurationParameter5
-Configuration13_Item5=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Top layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name6=OutputConfigurationParameter6
-Configuration13_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration13_Name7=OutputConfigurationParameter7
-Configuration13_Item7=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=Mid1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name8=OutputConfigurationParameter8
-Configuration13_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
-Configuration13_Name9=OutputConfigurationParameter9
-Configuration13_Item9=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=Mid3|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name10=OutputConfigurationParameter10
-Configuration13_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
-Configuration13_Name11=OutputConfigurationParameter11
-Configuration13_Item11=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=Mid4|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name12=OutputConfigurationParameter12
-Configuration13_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer7|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
-Configuration13_Name13=OutputConfigurationParameter13
-Configuration13_Item13=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=5|Mirror=False|Name=MId2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name14=OutputConfigurationParameter14
-Configuration13_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
-Configuration13_Name15=OutputConfigurationParameter15
-Configuration13_Item15=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=6|Mirror=False|Name=Bot|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name16=OutputConfigurationParameter16
-Configuration13_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer
-Configuration13_Name17=OutputConfigurationParameter17
-Configuration13_Item17=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=7|Mirror=False|Name=Bot overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration13_Name18=OutputConfigurationParameter18
-Configuration13_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
-Configuration13_Name19=OutputConfigurationParameter19
-Configuration13_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
-PcbPrintPreferences13=
+Configuration13_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ViewConfig= 
 OutputType14=Pick Place
 OutputName14=Copy of Generates pick and place files
 OutputCategory14=Assembly
@@ -428,7 +428,7 @@ Configuration15_Item7=Comment=100|Description=100|Designator=100|Footprint=100|M
 OutputType16=Board Stack Report
 OutputName16=Report Board Stack
 OutputCategory16=Fabrication
-OutputDocumentPath16=
+OutputDocumentPath16=[PCB Document]
 OutputVariantName16=
 OutputEnabled16=0
 OutputEnabled16_OutputMedium1=0
@@ -528,6 +528,28 @@ Configuration19_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Fu
 Configuration19_Name19=OutputConfigurationParameter19
 Configuration19_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 PcbPrintPreferences19=
+OutputType20=PCB Print
+OutputName20=Stackup
+OutputCategory20=Documentation
+OutputDocumentPath20=Phaser.PcbDoc
+OutputVariantName20=
+OutputEnabled20=1
+OutputEnabled20_OutputMedium1=0
+OutputEnabled20_OutputMedium2=6
+OutputEnabled20_OutputMedium3=0
+OutputEnabled20_OutputMedium4=0
+OutputEnabled20_OutputMedium5=0
+OutputEnabled20_OutputMedium6=5
+OutputEnabled20_OutputMedium7=5
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration20_Name1=OutputConfigurationParameter1
+Configuration20_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=21955669|PrintAreaLowerLeftCornerY=80164646|PrintAreaUpperRightCornerX=68465669|PrintAreaUpperRightCornerY=99764646|Record=PcbPrintView
+Configuration20_Name2=OutputConfigurationParameter2
+Configuration20_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Stackup|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration20_Name3=OutputConfigurationParameter3
+Configuration20_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+PcbPrintPreferences20=
 
 [PublishSettings]
 OutputFilePath2=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Phaser\PCB\Project Outputs for Phaser\Phaser.PDF
