@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Phaser
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -1425,18 +1425,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Baseband.step
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro5A18.xls
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Pro72A4.xls
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\ProF61A.xls
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1448,7 +1436,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for Phaser
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
