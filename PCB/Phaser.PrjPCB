@@ -24,16 +24,26 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
+AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+IsVirtualBomDocumentRemoved=0
+OutputPath=Project Outputs for Phaser
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+CurrentVariant=Upconverter
 
 [Preferences]
 PrefsVaultGUID=
@@ -312,6 +322,23 @@ GenerateClassCluster=0
 DocumentUniqueId=DHJPLKDT
 
 [Document17]
+DocumentPath=FPGA_MISC.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document18]
 DocumentPath=CFG_FLASH_Update.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -328,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MNTJRCOQ
 
-[Document18]
+[Document19]
 DocumentPath=PWR_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -345,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCPJRFKO
 
-[Document19]
+[Document20]
 DocumentPath=PWR_Supply-5.5V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -362,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UDNQVVPP
 
-[Document20]
+[Document21]
 DocumentPath=..\Panel\Panel_Phaser_Baseband.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -379,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QELIITCG
 
-[Document21]
+[Document22]
 DocumentPath=..\Panel\Panel_Phaser_Upconverter.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -396,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PGNDFEYD
 
-[Document22]
+[Document23]
 DocumentPath=DAC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -413,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=FPGA_ADC_DAC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -430,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document25]
 DocumentPath=FPGA_CFG_EEM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -447,7 +474,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document26]
 DocumentPath=FPGA_GTP.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -464,25 +491,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
-DocumentPath=LVDS_IFC.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [Document27]
-DocumentPath=FPGA_MISC.Harness
+DocumentPath=LVDS_IFC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -656,7 +666,7 @@ UniqueID=8ACD7A66-462E-4EC8-B547-9D4B64E261DD
 Description=Baseband
 AllowFabrication=0
 ParameterCount=0
-VariationCount=198
+VariationCount=199
 Variation1=Designator=R59|UniqueId=\SFQGSODT\GBBYBDVN|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R59
@@ -960,9 +970,9 @@ ParamDesignator99=R225B
 Variation103=Designator=R225A|UniqueId=\DOBOYDEZ\ROIDETWB|Kind=1|AlternatePart==Value
 ParamVariation100=ParameterName=Comment|VariantValue==Value
 ParamDesignator100=R225A
-Variation104=Designator=TR5B|UniqueId=\JKJSOJMD\MYYRPBHG|Kind=1|AlternatePart==Value
+Variation104=Designator=TR6B|UniqueId=\JKJSOJMD\MYYRPBHG|Kind=1|AlternatePart==Value
 ParamVariation101=ParameterName=Comment|VariantValue==Value
-ParamDesignator101=TR5B
+ParamDesignator101=TR6B
 Variation105=Designator=J9|UniqueId=\CXDKFJFY\BJEOVPHE|Kind=1|AlternatePart= 
 Variation106=Designator=R231|UniqueId=\SFQGSODT\NJIRTBUS|Kind=1|AlternatePart==Value
 ParamVariation102=ParameterName=Comment|VariantValue==Value
@@ -1022,197 +1032,198 @@ Variation124=Designator=IC34|UniqueId=\KJPUZUFR|Kind=1|AlternatePart=
 Variation125=Designator=R244|UniqueId=\XPWGSYBV|Kind=1|AlternatePart==Value
 ParamVariation120=ParameterName=Comment|VariantValue==Value
 ParamDesignator120=R244
-Variation126=Designator=TR1|UniqueId=\JBOQDPNK\PFKDXCTM|Kind=0|AlternatePart= 
-Variation127=Designator=TR2|UniqueId=\JBOQDPNK\ZKLQTFIU|Kind=0|AlternatePart= 
-Variation128=Designator=R17|UniqueId=\SFQGSODT\QMQHUTAV|Kind=1|AlternatePart==Value
+Variation126=Designator=R17|UniqueId=\SFQGSODT\QMQHUTAV|Kind=1|AlternatePart==Value
 ParamVariation121=ParameterName=Comment|VariantValue==Value
 ParamDesignator121=R17
-Variation129=Designator=R3|UniqueId=\SFQGSODT\ZWUKBZTE|Kind=1|AlternatePart==Value
+Variation127=Designator=R3|UniqueId=\SFQGSODT\ZWUKBZTE|Kind=1|AlternatePart==Value
 ParamVariation122=ParameterName=Comment|VariantValue==Value
 ParamDesignator122=R3
-Variation130=Designator=R227|UniqueId=\SFQGSODT\EXXUGKVT|Kind=1|AlternatePart==Value
+Variation128=Designator=R227|UniqueId=\SFQGSODT\EXXUGKVT|Kind=1|AlternatePart==Value
 ParamVariation123=ParameterName=Comment|VariantValue==Value
 ParamDesignator123=R227
-Variation131=Designator=R228|UniqueId=\SFQGSODT\OUTRXJMC|Kind=1|AlternatePart==Value
+Variation129=Designator=R228|UniqueId=\SFQGSODT\OUTRXJMC|Kind=1|AlternatePart==Value
 ParamVariation124=ParameterName=Comment|VariantValue==Value
 ParamDesignator124=R228
-Variation132=Designator=R229|UniqueId=\SFQGSODT\LTWHNUFA|Kind=1|AlternatePart==Value
+Variation130=Designator=R229|UniqueId=\SFQGSODT\LTWHNUFA|Kind=1|AlternatePart==Value
 ParamVariation125=ParameterName=Comment|VariantValue==Value
 ParamDesignator125=R229
-Variation133=Designator=R230|UniqueId=\SFQGSODT\EONUXHMC|Kind=1|AlternatePart==Value
+Variation131=Designator=R230|UniqueId=\SFQGSODT\EONUXHMC|Kind=1|AlternatePart==Value
 ParamVariation126=ParameterName=Comment|VariantValue==Value
 ParamDesignator126=R230
-Variation134=Designator=R68|UniqueId=\SFQGSODT\LBMTLOJL|Kind=1|AlternatePart==Value
+Variation132=Designator=R68|UniqueId=\SFQGSODT\LBMTLOJL|Kind=1|AlternatePart==Value
 ParamVariation127=ParameterName=Comment|VariantValue==Value
 ParamDesignator127=R68
-Variation135=Designator=R69|UniqueId=\SFQGSODT\PHKKVFNS|Kind=1|AlternatePart==Value
+Variation133=Designator=R69|UniqueId=\SFQGSODT\PHKKVFNS|Kind=1|AlternatePart==Value
 ParamVariation128=ParameterName=Comment|VariantValue==Value
 ParamDesignator128=R69
-Variation136=Designator=R156|UniqueId=\VBSHDAWI|Kind=1|AlternatePart==Value
+Variation134=Designator=R156|UniqueId=\VBSHDAWI|Kind=1|AlternatePart==Value
 ParamVariation129=ParameterName=Comment|VariantValue==Value
 ParamDesignator129=R156
-Variation137=Designator=R157|UniqueId=\LRWGQGTS|Kind=1|AlternatePart==Value
+Variation135=Designator=R157|UniqueId=\LRWGQGTS|Kind=1|AlternatePart==Value
 ParamVariation130=ParameterName=Comment|VariantValue==Value
 ParamDesignator130=R157
-Variation138=Designator=J16|UniqueId=\YEYCFMBA|Kind=1|AlternatePart= 
-Variation139=Designator=J17|UniqueId=\PVPQJTYR|Kind=1|AlternatePart= 
-Variation140=Designator=C371A|UniqueId=\AMPHYOUH\XHIDDVAT|Kind=1|AlternatePart==Value
+Variation136=Designator=J17|UniqueId=\PVPQJTYR|Kind=1|AlternatePart= 
+Variation137=Designator=C371A|UniqueId=\AMPHYOUH\XHIDDVAT|Kind=1|AlternatePart==Value
 ParamVariation131=ParameterName=Comment|VariantValue==Value
 ParamDesignator131=C371A
-Variation141=Designator=C372A|UniqueId=\AMPHYOUH\CIVBEGWX|Kind=1|AlternatePart==Value
+Variation138=Designator=C372A|UniqueId=\AMPHYOUH\CIVBEGWX|Kind=1|AlternatePart==Value
 ParamVariation132=ParameterName=Comment|VariantValue==Value
 ParamDesignator132=C372A
-Variation142=Designator=C373A|UniqueId=\AMPHYOUH\WNOGXPDF|Kind=1|AlternatePart==Value
+Variation139=Designator=C373A|UniqueId=\AMPHYOUH\WNOGXPDF|Kind=1|AlternatePart==Value
 ParamVariation133=ParameterName=Comment|VariantValue==Value
 ParamDesignator133=C373A
-Variation143=Designator=C374A|UniqueId=\AMPHYOUH\CCYYAMWB|Kind=1|AlternatePart==Value
+Variation140=Designator=C374A|UniqueId=\AMPHYOUH\CCYYAMWB|Kind=1|AlternatePart==Value
 ParamVariation134=ParameterName=Comment|VariantValue==Value
 ParamDesignator134=C374A
-Variation144=Designator=C375A|UniqueId=\AMPHYOUH\HQWAFAFA|Kind=1|AlternatePart==Value
+Variation141=Designator=C375A|UniqueId=\AMPHYOUH\HQWAFAFA|Kind=1|AlternatePart==Value
 ParamVariation135=ParameterName=Comment|VariantValue==Value
 ParamDesignator135=C375A
-Variation145=Designator=C376A|UniqueId=\AMPHYOUH\KXNBEBCY|Kind=1|AlternatePart==Value
+Variation142=Designator=C376A|UniqueId=\AMPHYOUH\KXNBEBCY|Kind=1|AlternatePart==Value
 ParamVariation136=ParameterName=Comment|VariantValue==Value
 ParamDesignator136=C376A
-Variation146=Designator=C377A|UniqueId=\AMPHYOUH\WREJUKPQ|Kind=1|AlternatePart==Value
+Variation143=Designator=C377A|UniqueId=\AMPHYOUH\WREJUKPQ|Kind=1|AlternatePart==Value
 ParamVariation137=ParameterName=Comment|VariantValue==Value
 ParamDesignator137=C377A
-Variation147=Designator=C369A|UniqueId=\AMPHYOUH\DPODOMNQ|Kind=1|AlternatePart==Value
+Variation144=Designator=C369A|UniqueId=\AMPHYOUH\DPODOMNQ|Kind=1|AlternatePart==Value
 ParamVariation138=ParameterName=Comment|VariantValue==Value
 ParamDesignator138=C369A
-Variation148=Designator=C370A|UniqueId=\AMPHYOUH\IBHINDYN|Kind=1|AlternatePart==Value
+Variation145=Designator=C370A|UniqueId=\AMPHYOUH\IBHINDYN|Kind=1|AlternatePart==Value
 ParamVariation139=ParameterName=Comment|VariantValue==Value
 ParamDesignator139=C370A
-Variation149=Designator=C370B|UniqueId=\RHJTULWQ\IBHINDYN|Kind=1|AlternatePart==Value
+Variation146=Designator=C370B|UniqueId=\RHJTULWQ\IBHINDYN|Kind=1|AlternatePart==Value
 ParamVariation140=ParameterName=Comment|VariantValue==Value
 ParamDesignator140=C370B
-Variation150=Designator=C369B|UniqueId=\RHJTULWQ\DPODOMNQ|Kind=1|AlternatePart==Value
+Variation147=Designator=C369B|UniqueId=\RHJTULWQ\DPODOMNQ|Kind=1|AlternatePart==Value
 ParamVariation141=ParameterName=Comment|VariantValue==Value
 ParamDesignator141=C369B
-Variation151=Designator=C377B|UniqueId=\RHJTULWQ\WREJUKPQ|Kind=1|AlternatePart==Value
+Variation148=Designator=C377B|UniqueId=\RHJTULWQ\WREJUKPQ|Kind=1|AlternatePart==Value
 ParamVariation142=ParameterName=Comment|VariantValue==Value
 ParamDesignator142=C377B
-Variation152=Designator=C376B|UniqueId=\RHJTULWQ\KXNBEBCY|Kind=1|AlternatePart==Value
+Variation149=Designator=C376B|UniqueId=\RHJTULWQ\KXNBEBCY|Kind=1|AlternatePart==Value
 ParamVariation143=ParameterName=Comment|VariantValue==Value
 ParamDesignator143=C376B
-Variation153=Designator=C375B|UniqueId=\RHJTULWQ\HQWAFAFA|Kind=1|AlternatePart==Value
+Variation150=Designator=C375B|UniqueId=\RHJTULWQ\HQWAFAFA|Kind=1|AlternatePart==Value
 ParamVariation144=ParameterName=Comment|VariantValue==Value
 ParamDesignator144=C375B
-Variation154=Designator=C374B|UniqueId=\RHJTULWQ\CCYYAMWB|Kind=1|AlternatePart==Value
+Variation151=Designator=C374B|UniqueId=\RHJTULWQ\CCYYAMWB|Kind=1|AlternatePart==Value
 ParamVariation145=ParameterName=Comment|VariantValue==Value
 ParamDesignator145=C374B
-Variation155=Designator=C371B|UniqueId=\RHJTULWQ\XHIDDVAT|Kind=1|AlternatePart==Value
+Variation152=Designator=C371B|UniqueId=\RHJTULWQ\XHIDDVAT|Kind=1|AlternatePart==Value
 ParamVariation146=ParameterName=Comment|VariantValue==Value
 ParamDesignator146=C371B
-Variation156=Designator=C372B|UniqueId=\RHJTULWQ\CIVBEGWX|Kind=1|AlternatePart==Value
+Variation153=Designator=C372B|UniqueId=\RHJTULWQ\CIVBEGWX|Kind=1|AlternatePart==Value
 ParamVariation147=ParameterName=Comment|VariantValue==Value
 ParamDesignator147=C372B
-Variation157=Designator=C373B|UniqueId=\RHJTULWQ\WNOGXPDF|Kind=1|AlternatePart==Value
+Variation154=Designator=C373B|UniqueId=\RHJTULWQ\WNOGXPDF|Kind=1|AlternatePart==Value
 ParamVariation148=ParameterName=Comment|VariantValue==Value
 ParamDesignator148=C373B
-Variation158=Designator=R11|UniqueId=\SFQGSODT\VKMLZTCN|Kind=1|AlternatePart==Value
+Variation155=Designator=R11|UniqueId=\SFQGSODT\VKMLZTCN|Kind=1|AlternatePart==Value
 ParamVariation149=ParameterName=Comment|VariantValue==Value
 ParamDesignator149=R11
-Variation159=Designator=R12|UniqueId=\SFQGSODT\JNRJDIGG|Kind=1|AlternatePart==Value
+Variation156=Designator=R12|UniqueId=\SFQGSODT\JNRJDIGG|Kind=1|AlternatePart==Value
 ParamVariation150=ParameterName=Comment|VariantValue==Value
 ParamDesignator150=R12
-Variation160=Designator=R237|UniqueId=\SFQGSODT\CPXFHANV|Kind=1|AlternatePart==Value
+Variation157=Designator=R237|UniqueId=\SFQGSODT\CPXFHANV|Kind=1|AlternatePart==Value
 ParamVariation151=ParameterName=Comment|VariantValue==Value
 ParamDesignator151=R237
-Variation161=Designator=R13|UniqueId=\SFQGSODT\STDUDZFR|Kind=1|AlternatePart==Value
+Variation158=Designator=R13|UniqueId=\SFQGSODT\STDUDZFR|Kind=1|AlternatePart==Value
 ParamVariation152=ParameterName=Comment|VariantValue==Value
 ParamDesignator152=R13
-Variation162=Designator=R15|UniqueId=\SFQGSODT\NCVCLQKH|Kind=1|AlternatePart==Value
+Variation159=Designator=R15|UniqueId=\SFQGSODT\NCVCLQKH|Kind=1|AlternatePart==Value
 ParamVariation153=ParameterName=Comment|VariantValue==Value
 ParamDesignator153=R15
-Variation163=Designator=R16|UniqueId=\SFQGSODT\SGNZTIVX|Kind=1|AlternatePart==Value
+Variation160=Designator=R16|UniqueId=\SFQGSODT\SGNZTIVX|Kind=1|AlternatePart==Value
 ParamVariation154=ParameterName=Comment|VariantValue==Value
 ParamDesignator154=R16
-Variation164=Designator=R21|UniqueId=\SFQGSODT\RUGLJZOC|Kind=1|AlternatePart==Value
+Variation161=Designator=R21|UniqueId=\SFQGSODT\RUGLJZOC|Kind=1|AlternatePart==Value
 ParamVariation155=ParameterName=Comment|VariantValue==Value
 ParamDesignator155=R21
-Variation165=Designator=R24|UniqueId=\SFQGSODT\IQOXZQNK|Kind=1|AlternatePart==Value
+Variation162=Designator=R24|UniqueId=\SFQGSODT\IQOXZQNK|Kind=1|AlternatePart==Value
 ParamVariation156=ParameterName=Comment|VariantValue==Value
 ParamDesignator156=R24
-Variation166=Designator=R79|UniqueId=\SFQGSODT\NAAXGVES|Kind=1|AlternatePart==Value
+Variation163=Designator=R79|UniqueId=\SFQGSODT\NAAXGVES|Kind=1|AlternatePart==Value
 ParamVariation157=ParameterName=Comment|VariantValue==Value
 ParamDesignator157=R79
-Variation167=Designator=R71|UniqueId=\SFQGSODT\NUCESIHA|Kind=1|AlternatePart==Value
+Variation164=Designator=R71|UniqueId=\SFQGSODT\NUCESIHA|Kind=1|AlternatePart==Value
 ParamVariation158=ParameterName=Comment|VariantValue==Value
 ParamDesignator158=R71
-Variation168=Designator=R31|UniqueId=\SFQGSODT\TNHHZKTU|Kind=1|AlternatePart==Value
+Variation165=Designator=R31|UniqueId=\SFQGSODT\TNHHZKTU|Kind=1|AlternatePart==Value
 ParamVariation159=ParameterName=Comment|VariantValue==Value
 ParamDesignator159=R31
-Variation169=Designator=C359|UniqueId=\JBOQDPNK\WMRVYVIA|Kind=1|AlternatePart==Value
+Variation166=Designator=C359|UniqueId=\JBOQDPNK\WMRVYVIA|Kind=1|AlternatePart==Value
 ParamVariation160=ParameterName=Comment|VariantValue==Value
 ParamDesignator160=C359
-Variation170=Designator=C362|UniqueId=\JBOQDPNK\XKBBIDYL|Kind=1|AlternatePart==Value
+Variation167=Designator=C362|UniqueId=\JBOQDPNK\XKBBIDYL|Kind=1|AlternatePart==Value
 ParamVariation161=ParameterName=Comment|VariantValue==Value
 ParamDesignator161=C362
-Variation171=Designator=C246A|UniqueId=\DOBOYDEZ\QPEDMWXY|Kind=1|AlternatePart==Value
+Variation168=Designator=C246A|UniqueId=\DOBOYDEZ\QPEDMWXY|Kind=1|AlternatePart==Value
 ParamVariation162=ParameterName=Comment|VariantValue==Value
 ParamDesignator162=C246A
-Variation172=Designator=C246B|UniqueId=\JKJSOJMD\QPEDMWXY|Kind=1|AlternatePart==Value
+Variation169=Designator=C246B|UniqueId=\JKJSOJMD\QPEDMWXY|Kind=1|AlternatePart==Value
 ParamVariation163=ParameterName=Comment|VariantValue==Value
 ParamDesignator163=C246B
-Variation173=Designator=R49|UniqueId=\SFQGSODT\JUBXGDZO|Kind=1|AlternatePart==Value
+Variation170=Designator=R49|UniqueId=\SFQGSODT\JUBXGDZO|Kind=1|AlternatePart==Value
 ParamVariation164=ParameterName=Comment|VariantValue==Value
 ParamDesignator164=R49
-Variation174=Designator=R257|UniqueId=\QUIVSWDM|Kind=1|AlternatePart==Value
+Variation171=Designator=R257|UniqueId=\QUIVSWDM|Kind=1|AlternatePart==Value
 ParamVariation165=ParameterName=Comment|VariantValue==Value
 ParamDesignator165=R257
-Variation175=Designator=C11|UniqueId=\LLHGPNED|Kind=1|AlternatePart==Value
+Variation172=Designator=C11|UniqueId=\LLHGPNED|Kind=1|AlternatePart==Value
 ParamVariation166=ParameterName=Comment|VariantValue==Value
 ParamDesignator166=C11
-Variation176=Designator=C31|UniqueId=\UIVHEXFU|Kind=1|AlternatePart==Value
+Variation173=Designator=C31|UniqueId=\UIVHEXFU|Kind=1|AlternatePart==Value
 ParamVariation167=ParameterName=Comment|VariantValue==Value
 ParamDesignator167=C31
-Variation177=Designator=C37|UniqueId=\ONRISPHK|Kind=1|AlternatePart==Value
+Variation174=Designator=C37|UniqueId=\ONRISPHK|Kind=1|AlternatePart==Value
 ParamVariation168=ParameterName=Comment|VariantValue==Value
 ParamDesignator168=C37
-Variation178=Designator=R150|UniqueId=\SHEEHUIJ|Kind=1|AlternatePart==Value
+Variation175=Designator=R150|UniqueId=\SHEEHUIJ|Kind=1|AlternatePart==Value
 ParamVariation169=ParameterName=Comment|VariantValue==Value
 ParamDesignator169=R150
-Variation179=Designator=R14|UniqueId=\CTUOYQMI|Kind=1|AlternatePart==Value
+Variation176=Designator=R14|UniqueId=\CTUOYQMI|Kind=1|AlternatePart==Value
 ParamVariation170=ParameterName=Comment|VariantValue==Value
 ParamDesignator170=R14
-Variation180=Designator=J14A|UniqueId=\DOBOYDEZ\UIGDZYRV|Kind=1|AlternatePart= 
-Variation181=Designator=R73|UniqueId=\JBOQDPNK\SPHXBQTR|Kind=1|AlternatePart==Value
+Variation177=Designator=J14A|UniqueId=\DOBOYDEZ\UIGDZYRV|Kind=1|AlternatePart= 
+Variation178=Designator=R73|UniqueId=\JBOQDPNK\SPHXBQTR|Kind=1|AlternatePart==Value
 ParamVariation171=ParameterName=Comment|VariantValue==Value
 ParamDesignator171=R73
-Variation182=Designator=R46|UniqueId=\JBOQDPNK\PTQNGEXB|Kind=1|AlternatePart==Value
+Variation179=Designator=R46|UniqueId=\JBOQDPNK\PTQNGEXB|Kind=1|AlternatePart==Value
 ParamVariation172=ParameterName=Comment|VariantValue==Value
 ParamDesignator172=R46
-Variation183=Designator=R245|UniqueId=\JBOQDPNK\HARVSHPE|Kind=1|AlternatePart==Value
+Variation180=Designator=R245|UniqueId=\JBOQDPNK\HARVSHPE|Kind=1|AlternatePart==Value
 ParamVariation173=ParameterName=Comment|VariantValue==Value
 ParamDesignator173=R245
-Variation184=Designator=R45|UniqueId=\JBOQDPNK\DCWDXPGU|Kind=1|AlternatePart==Value
+Variation181=Designator=R45|UniqueId=\JBOQDPNK\DCWDXPGU|Kind=1|AlternatePart==Value
 ParamVariation174=ParameterName=Comment|VariantValue==Value
 ParamDesignator174=R45
-Variation185=Designator=R47|UniqueId=\JBOQDPNK\MTKMSNKM|Kind=1|AlternatePart==Value
+Variation182=Designator=R47|UniqueId=\JBOQDPNK\MTKMSNKM|Kind=1|AlternatePart==Value
 ParamVariation175=ParameterName=Comment|VariantValue==Value
 ParamDesignator175=R47
-Variation186=Designator=R52|UniqueId=\JBOQDPNK\PXCIWGUL|Kind=1|AlternatePart==Value
+Variation183=Designator=R52|UniqueId=\JBOQDPNK\PXCIWGUL|Kind=1|AlternatePart==Value
 ParamVariation176=ParameterName=Comment|VariantValue==Value
 ParamDesignator176=R52
-Variation187=Designator=TR5A|UniqueId=\DOBOYDEZ\MYYRPBHG|Kind=1|AlternatePart==Value
+Variation184=Designator=TR6A|UniqueId=\DOBOYDEZ\MYYRPBHG|Kind=1|AlternatePart==Value
 ParamVariation177=ParameterName=Comment|VariantValue==Value
-ParamDesignator177=TR5A
-Variation188=Designator=C281A|UniqueId=\DOBOYDEZ\DHMFLYWO|Kind=1|AlternatePart==Value
+ParamDesignator177=TR6A
+Variation185=Designator=C281A|UniqueId=\DOBOYDEZ\DHMFLYWO|Kind=1|AlternatePart==Value
 ParamVariation178=ParameterName=Comment|VariantValue==Value
 ParamDesignator178=C281A
-Variation189=Designator=C280A|UniqueId=\DOBOYDEZ\FOJAOPPB|Kind=1|AlternatePart==Value
+Variation186=Designator=C280A|UniqueId=\DOBOYDEZ\FOJAOPPB|Kind=1|AlternatePart==Value
 ParamVariation179=ParameterName=Comment|VariantValue==Value
 ParamDesignator179=C280A
-Variation190=Designator=R37|UniqueId=\SFQGSODT\BQRAUIOE|Kind=1|AlternatePart= 
-Variation191=Designator=R39|UniqueId=\SFQGSODT\OBTQYMSY|Kind=1|AlternatePart= 
-Variation192=Designator=R40|UniqueId=\SFQGSODT\ORVVXYMI|Kind=1|AlternatePart= 
-Variation193=Designator=R54|UniqueId=\SFQGSODT\WCQWGVBT|Kind=1|AlternatePart= 
-Variation194=Designator=R61|UniqueId=\SFQGSODT\AJSMGWTB|Kind=1|AlternatePart= 
-Variation195=Designator=R67|UniqueId=\SFQGSODT\TQXDZSRQ|Kind=1|AlternatePart= 
-Variation196=Designator=R76|UniqueId=\SFQGSODT\XOCTRIMU|Kind=1|AlternatePart= 
-Variation197=Designator=R86|UniqueId=\SFQGSODT\TLQQGJJP|Kind=1|AlternatePart= 
-Variation198=Designator=J16|UniqueId=\EHEBZPHN|Kind=1|AlternatePart= 
+Variation187=Designator=R37|UniqueId=\SFQGSODT\BQRAUIOE|Kind=1|AlternatePart= 
+Variation188=Designator=R39|UniqueId=\SFQGSODT\OBTQYMSY|Kind=1|AlternatePart= 
+Variation189=Designator=R40|UniqueId=\SFQGSODT\ORVVXYMI|Kind=1|AlternatePart= 
+Variation190=Designator=R54|UniqueId=\SFQGSODT\WCQWGVBT|Kind=1|AlternatePart= 
+Variation191=Designator=R61|UniqueId=\SFQGSODT\AJSMGWTB|Kind=1|AlternatePart= 
+Variation192=Designator=R67|UniqueId=\SFQGSODT\TQXDZSRQ|Kind=1|AlternatePart= 
+Variation193=Designator=R76|UniqueId=\SFQGSODT\XOCTRIMU|Kind=1|AlternatePart= 
+Variation194=Designator=R86|UniqueId=\SFQGSODT\TLQQGJJP|Kind=1|AlternatePart= 
+Variation195=Designator=J16|UniqueId=\EHEBZPHN|Kind=1|AlternatePart= 
+Variation196=Designator=R27|UniqueId=\JBOQDPNK\LUBPCZSY|Kind=1|AlternatePart= 
+Variation197=Designator=R81|UniqueId=\JBOQDPNK\YWGGAXSP|Kind=1|AlternatePart= 
+Variation198=Designator=HS3A|UniqueId=\DOBOYDEZ\HOEWRROQ|Kind=1|AlternatePart= 
+Variation199=Designator=HS3B|UniqueId=\JKJSOJMD\HOEWRROQ|Kind=1|AlternatePart= 
 ParamVariationCount=179
 
 [ProjectVariant2]
@@ -1220,7 +1231,7 @@ UniqueID=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=Upconverter
 AllowFabrication=0
 ParameterCount=0
-VariationCount=79
+VariationCount=78
 Variation1=Designator=R8A|UniqueId=\UNXBKWRT\DMEIORED|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R8A
@@ -1255,183 +1266,214 @@ ParamDesignator10=C32
 Variation12=Designator=R236|UniqueId=\QPXSZWQF|Kind=1|AlternatePart==Value
 ParamVariation11=ParameterName=Comment|VariantValue==Value
 ParamDesignator11=R236
-Variation13=Designator=TR1|UniqueId=\JBOQDPNK\PFKDXCTM|Kind=0|AlternatePart= 
-Variation14=Designator=TR2|UniqueId=\JBOQDPNK\ZKLQTFIU|Kind=0|AlternatePart= 
-Variation15=Designator=R247|UniqueId=\SFQGSODT\IFUHIPDP|Kind=1|AlternatePart==Value
+Variation13=Designator=R247|UniqueId=\SFQGSODT\IFUHIPDP|Kind=1|AlternatePart==Value
 ParamVariation12=ParameterName=Comment|VariantValue==Value
 ParamDesignator12=R247
-Variation16=Designator=R246|UniqueId=\SFQGSODT\QOLJUGGI|Kind=1|AlternatePart==Value
+Variation14=Designator=R246|UniqueId=\SFQGSODT\QOLJUGGI|Kind=1|AlternatePart==Value
 ParamVariation13=ParameterName=Comment|VariantValue==Value
 ParamDesignator13=R246
-Variation17=Designator=R249|UniqueId=\SFQGSODT\NPRDOVKB|Kind=1|AlternatePart==Value
+Variation15=Designator=R249|UniqueId=\SFQGSODT\NPRDOVKB|Kind=1|AlternatePart==Value
 ParamVariation14=ParameterName=Comment|VariantValue==Value
 ParamDesignator14=R249
-Variation18=Designator=R250|UniqueId=\SFQGSODT\SVKTCDNB|Kind=1|AlternatePart==Value
+Variation16=Designator=R250|UniqueId=\SFQGSODT\SVKTCDNB|Kind=1|AlternatePart==Value
 ParamVariation15=ParameterName=Comment|VariantValue==Value
 ParamDesignator15=R250
-Variation19=Designator=R251|UniqueId=\SFQGSODT\FVTLLPIY|Kind=1|AlternatePart==Value
+Variation17=Designator=R251|UniqueId=\SFQGSODT\FVTLLPIY|Kind=1|AlternatePart==Value
 ParamVariation16=ParameterName=Comment|VariantValue==Value
 ParamDesignator16=R251
-Variation20=Designator=R252|UniqueId=\SFQGSODT\AYESHLIG|Kind=1|AlternatePart==Value
+Variation18=Designator=R252|UniqueId=\SFQGSODT\AYESHLIG|Kind=1|AlternatePart==Value
 ParamVariation17=ParameterName=Comment|VariantValue==Value
 ParamDesignator17=R252
-Variation21=Designator=R253|UniqueId=\SFQGSODT\STKHSYBC|Kind=1|AlternatePart==Value
+Variation19=Designator=R253|UniqueId=\SFQGSODT\STKHSYBC|Kind=1|AlternatePart==Value
 ParamVariation18=ParameterName=Comment|VariantValue==Value
 ParamDesignator18=R253
-Variation22=Designator=R254|UniqueId=\SFQGSODT\YFXRWYYJ|Kind=1|AlternatePart==Value
+Variation20=Designator=R254|UniqueId=\SFQGSODT\YFXRWYYJ|Kind=1|AlternatePart==Value
 ParamVariation19=ParameterName=Comment|VariantValue==Value
 ParamDesignator19=R254
-Variation23=Designator=R156|UniqueId=\VBSHDAWI|Kind=1|AlternatePart==Value
+Variation21=Designator=R156|UniqueId=\VBSHDAWI|Kind=1|AlternatePart==Value
 ParamVariation20=ParameterName=Comment|VariantValue==Value
 ParamDesignator20=R156
-Variation24=Designator=R157|UniqueId=\LRWGQGTS|Kind=1|AlternatePart==Value
+Variation22=Designator=R157|UniqueId=\LRWGQGTS|Kind=1|AlternatePart==Value
 ParamVariation21=ParameterName=Comment|VariantValue==Value
 ParamDesignator21=R157
-Variation25=Designator=C270A|UniqueId=\AMPHYOUH\RZOZGWPR|Kind=1|AlternatePart==Value
+Variation23=Designator=C270A|UniqueId=\AMPHYOUH\RZOZGWPR|Kind=1|AlternatePart==Value
 ParamVariation22=ParameterName=Comment|VariantValue==Value
 ParamDesignator22=C270A
-Variation26=Designator=C272A|UniqueId=\AMPHYOUH\YYDGLUSG|Kind=1|AlternatePart==Value
+Variation24=Designator=C272A|UniqueId=\AMPHYOUH\YYDGLUSG|Kind=1|AlternatePart==Value
 ParamVariation23=ParameterName=Comment|VariantValue==Value
 ParamDesignator23=C272A
-Variation27=Designator=C276A|UniqueId=\AMPHYOUH\YTOBYWRU|Kind=1|AlternatePart==Value
+Variation25=Designator=C276A|UniqueId=\AMPHYOUH\YTOBYWRU|Kind=1|AlternatePart==Value
 ParamVariation24=ParameterName=Comment|VariantValue==Value
 ParamDesignator24=C276A
-Variation28=Designator=C275A|UniqueId=\AMPHYOUH\EHQBBPDU|Kind=1|AlternatePart==Value
+Variation26=Designator=C275A|UniqueId=\AMPHYOUH\EHQBBPDU|Kind=1|AlternatePart==Value
 ParamVariation25=ParameterName=Comment|VariantValue==Value
 ParamDesignator25=C275A
-Variation29=Designator=C274A|UniqueId=\AMPHYOUH\NVFSCBOU|Kind=1|AlternatePart==Value
+Variation27=Designator=C274A|UniqueId=\AMPHYOUH\NVFSCBOU|Kind=1|AlternatePart==Value
 ParamVariation26=ParameterName=Comment|VariantValue==Value
 ParamDesignator26=C274A
-Variation30=Designator=C273A|UniqueId=\AMPHYOUH\XYDLETBX|Kind=1|AlternatePart==Value
+Variation28=Designator=C273A|UniqueId=\AMPHYOUH\XYDLETBX|Kind=1|AlternatePart==Value
 ParamVariation27=ParameterName=Comment|VariantValue==Value
 ParamDesignator27=C273A
-Variation31=Designator=C16A|UniqueId=\AMPHYOUH\FKOMVSBM|Kind=1|AlternatePart==Value
+Variation29=Designator=C16A|UniqueId=\AMPHYOUH\FKOMVSBM|Kind=1|AlternatePart==Value
 ParamVariation28=ParameterName=Comment|VariantValue==Value
 ParamDesignator28=C16A
-Variation32=Designator=C14A|UniqueId=\AMPHYOUH\PSPOWOIU|Kind=1|AlternatePart==Value
+Variation30=Designator=C14A|UniqueId=\AMPHYOUH\PSPOWOIU|Kind=1|AlternatePart==Value
 ParamVariation29=ParameterName=Comment|VariantValue==Value
 ParamDesignator29=C14A
-Variation33=Designator=C15A|UniqueId=\AMPHYOUH\QIYJGNYL|Kind=1|AlternatePart==Value
+Variation31=Designator=C15A|UniqueId=\AMPHYOUH\QIYJGNYL|Kind=1|AlternatePart==Value
 ParamVariation30=ParameterName=Comment|VariantValue==Value
 ParamDesignator30=C15A
-Variation34=Designator=C270B|UniqueId=\RHJTULWQ\RZOZGWPR|Kind=1|AlternatePart==Value
+Variation32=Designator=C270B|UniqueId=\RHJTULWQ\RZOZGWPR|Kind=1|AlternatePart==Value
 ParamVariation31=ParameterName=Comment|VariantValue==Value
 ParamDesignator31=C270B
-Variation35=Designator=C272B|UniqueId=\RHJTULWQ\YYDGLUSG|Kind=1|AlternatePart==Value
+Variation33=Designator=C272B|UniqueId=\RHJTULWQ\YYDGLUSG|Kind=1|AlternatePart==Value
 ParamVariation32=ParameterName=Comment|VariantValue==Value
 ParamDesignator32=C272B
-Variation36=Designator=C276B|UniqueId=\RHJTULWQ\YTOBYWRU|Kind=1|AlternatePart==Value
+Variation34=Designator=C276B|UniqueId=\RHJTULWQ\YTOBYWRU|Kind=1|AlternatePart==Value
 ParamVariation33=ParameterName=Comment|VariantValue==Value
 ParamDesignator33=C276B
-Variation37=Designator=C275B|UniqueId=\RHJTULWQ\EHQBBPDU|Kind=1|AlternatePart==Value
+Variation35=Designator=C275B|UniqueId=\RHJTULWQ\EHQBBPDU|Kind=1|AlternatePart==Value
 ParamVariation34=ParameterName=Comment|VariantValue==Value
 ParamDesignator34=C275B
-Variation38=Designator=C274B|UniqueId=\RHJTULWQ\NVFSCBOU|Kind=1|AlternatePart==Value
+Variation36=Designator=C274B|UniqueId=\RHJTULWQ\NVFSCBOU|Kind=1|AlternatePart==Value
 ParamVariation35=ParameterName=Comment|VariantValue==Value
 ParamDesignator35=C274B
-Variation39=Designator=C273B|UniqueId=\RHJTULWQ\XYDLETBX|Kind=1|AlternatePart==Value
+Variation37=Designator=C273B|UniqueId=\RHJTULWQ\XYDLETBX|Kind=1|AlternatePart==Value
 ParamVariation36=ParameterName=Comment|VariantValue==Value
 ParamDesignator36=C273B
-Variation40=Designator=C16B|UniqueId=\RHJTULWQ\FKOMVSBM|Kind=1|AlternatePart==Value
+Variation38=Designator=C16B|UniqueId=\RHJTULWQ\FKOMVSBM|Kind=1|AlternatePart==Value
 ParamVariation37=ParameterName=Comment|VariantValue==Value
 ParamDesignator37=C16B
-Variation41=Designator=C15B|UniqueId=\RHJTULWQ\QIYJGNYL|Kind=1|AlternatePart==Value
+Variation39=Designator=C15B|UniqueId=\RHJTULWQ\QIYJGNYL|Kind=1|AlternatePart==Value
 ParamVariation38=ParameterName=Comment|VariantValue==Value
 ParamDesignator38=C15B
-Variation42=Designator=C14B|UniqueId=\RHJTULWQ\PSPOWOIU|Kind=1|AlternatePart==Value
+Variation40=Designator=C14B|UniqueId=\RHJTULWQ\PSPOWOIU|Kind=1|AlternatePart==Value
 ParamVariation39=ParameterName=Comment|VariantValue==Value
 ParamDesignator39=C14B
-Variation43=Designator=TR3|UniqueId=\SFQGSODT\FZLZAXNH|Kind=1|AlternatePart==Value
+Variation41=Designator=TR3|UniqueId=\SFQGSODT\FZLZAXNH|Kind=1|AlternatePart==Value
 ParamVariation40=ParameterName=Comment|VariantValue==Value
 ParamDesignator40=TR3
-Variation44=Designator=TR8|UniqueId=\SFQGSODT\RQBEEDFL|Kind=1|AlternatePart==Value
+Variation42=Designator=TR8|UniqueId=\SFQGSODT\RQBEEDFL|Kind=1|AlternatePart==Value
 ParamVariation41=ParameterName=Comment|VariantValue==Value
 ParamDesignator41=TR8
-Variation45=Designator=TR4|UniqueId=\SFQGSODT\NDBKABUR|Kind=1|AlternatePart==Value
+Variation43=Designator=TR4|UniqueId=\SFQGSODT\NDBKABUR|Kind=1|AlternatePart==Value
 ParamVariation42=ParameterName=Comment|VariantValue==Value
 ParamDesignator42=TR4
-Variation46=Designator=TR5|UniqueId=\SFQGSODT\LBAZRVUS|Kind=1|AlternatePart==Value
+Variation44=Designator=TR5|UniqueId=\SFQGSODT\LBAZRVUS|Kind=1|AlternatePart==Value
 ParamVariation43=ParameterName=Comment|VariantValue==Value
 ParamDesignator43=TR5
-Variation47=Designator=J13|UniqueId=\SFQGSODT\QXSFBQVD|Kind=1|AlternatePart= 
-Variation48=Designator=J15|UniqueId=\SFQGSODT\QOLRXJJD|Kind=1|AlternatePart= 
-Variation49=Designator=R184|UniqueId=\SFQGSODT\VSISJKCC|Kind=1|AlternatePart==Value
+Variation45=Designator=J13|UniqueId=\SFQGSODT\QXSFBQVD|Kind=1|AlternatePart= 
+Variation46=Designator=J15|UniqueId=\SFQGSODT\QOLRXJJD|Kind=1|AlternatePart= 
+Variation47=Designator=R184|UniqueId=\SFQGSODT\VSISJKCC|Kind=1|AlternatePart==Value
 ParamVariation44=ParameterName=Comment|VariantValue==Value
 ParamDesignator44=R184
-Variation50=Designator=R258|UniqueId=\SFQGSODT\OZKRAVOW|Kind=1|AlternatePart==Value
+Variation48=Designator=R258|UniqueId=\SFQGSODT\OZKRAVOW|Kind=1|AlternatePart==Value
 ParamVariation45=ParameterName=Comment|VariantValue==Value
 ParamDesignator45=R258
-Variation51=Designator=R263|UniqueId=\SFQGSODT\IGMPTWLY|Kind=1|AlternatePart==Value
+Variation49=Designator=R263|UniqueId=\SFQGSODT\IGMPTWLY|Kind=1|AlternatePart==Value
 ParamVariation46=ParameterName=Comment|VariantValue==Value
 ParamDesignator46=R263
-Variation52=Designator=R264|UniqueId=\SFQGSODT\JZLTTDSS|Kind=1|AlternatePart==Value
+Variation50=Designator=R264|UniqueId=\SFQGSODT\JZLTTDSS|Kind=1|AlternatePart==Value
 ParamVariation47=ParameterName=Comment|VariantValue==Value
 ParamDesignator47=R264
-Variation53=Designator=R268|UniqueId=\SFQGSODT\DOZBEWLG|Kind=1|AlternatePart==Value
+Variation51=Designator=R268|UniqueId=\SFQGSODT\DOZBEWLG|Kind=1|AlternatePart==Value
 ParamVariation48=ParameterName=Comment|VariantValue==Value
 ParamDesignator48=R268
-Variation54=Designator=R267|UniqueId=\SFQGSODT\EAEWUKXU|Kind=1|AlternatePart==Value
+Variation52=Designator=R267|UniqueId=\SFQGSODT\EAEWUKXU|Kind=1|AlternatePart==Value
 ParamVariation49=ParameterName=Comment|VariantValue==Value
 ParamDesignator49=R267
-Variation55=Designator=R266|UniqueId=\SFQGSODT\OENVCSWM|Kind=1|AlternatePart==Value
+Variation53=Designator=R266|UniqueId=\SFQGSODT\OENVCSWM|Kind=1|AlternatePart==Value
 ParamVariation50=ParameterName=Comment|VariantValue==Value
 ParamDesignator50=R266
-Variation56=Designator=R265|UniqueId=\SFQGSODT\WLDCZBXS|Kind=1|AlternatePart==Value
+Variation54=Designator=R265|UniqueId=\SFQGSODT\WLDCZBXS|Kind=1|AlternatePart==Value
 ParamVariation51=ParameterName=Comment|VariantValue==Value
 ParamDesignator51=R265
-Variation57=Designator=C359|UniqueId=\JBOQDPNK\WMRVYVIA|Kind=1|AlternatePart==Value
+Variation55=Designator=C359|UniqueId=\JBOQDPNK\WMRVYVIA|Kind=1|AlternatePart==Value
 ParamVariation52=ParameterName=Comment|VariantValue==Value
 ParamDesignator52=C359
-Variation58=Designator=C362|UniqueId=\JBOQDPNK\XKBBIDYL|Kind=1|AlternatePart==Value
+Variation56=Designator=C362|UniqueId=\JBOQDPNK\XKBBIDYL|Kind=1|AlternatePart==Value
 ParamVariation53=ParameterName=Comment|VariantValue==Value
 ParamDesignator53=C362
-Variation59=Designator=C11|UniqueId=\LLHGPNED|Kind=1|AlternatePart==Value
+Variation57=Designator=C11|UniqueId=\LLHGPNED|Kind=1|AlternatePart==Value
 ParamVariation54=ParameterName=Comment|VariantValue==Value
 ParamDesignator54=C11
-Variation60=Designator=C31|UniqueId=\UIVHEXFU|Kind=1|AlternatePart==Value
+Variation58=Designator=C31|UniqueId=\UIVHEXFU|Kind=1|AlternatePart==Value
 ParamVariation55=ParameterName=Comment|VariantValue==Value
 ParamDesignator55=C31
-Variation61=Designator=C37|UniqueId=\ONRISPHK|Kind=1|AlternatePart==Value
+Variation59=Designator=C37|UniqueId=\ONRISPHK|Kind=1|AlternatePart==Value
 ParamVariation56=ParameterName=Comment|VariantValue==Value
 ParamDesignator56=C37
-Variation62=Designator=R150|UniqueId=\SHEEHUIJ|Kind=1|AlternatePart==Value
+Variation60=Designator=R150|UniqueId=\SHEEHUIJ|Kind=1|AlternatePart==Value
 ParamVariation57=ParameterName=Comment|VariantValue==Value
 ParamDesignator57=R150
-Variation63=Designator=R14|UniqueId=\CTUOYQMI|Kind=1|AlternatePart==Value
+Variation61=Designator=R14|UniqueId=\CTUOYQMI|Kind=1|AlternatePart==Value
 ParamVariation58=ParameterName=Comment|VariantValue==Value
 ParamDesignator58=R14
-Variation64=Designator=R73|UniqueId=\JBOQDPNK\SPHXBQTR|Kind=1|AlternatePart==Value
+Variation62=Designator=R73|UniqueId=\JBOQDPNK\SPHXBQTR|Kind=1|AlternatePart==Value
 ParamVariation59=ParameterName=Comment|VariantValue==Value
 ParamDesignator59=R73
-Variation65=Designator=R45|UniqueId=\JBOQDPNK\DCWDXPGU|Kind=1|AlternatePart==Value
+Variation63=Designator=R45|UniqueId=\JBOQDPNK\DCWDXPGU|Kind=1|AlternatePart==Value
 ParamVariation60=ParameterName=Comment|VariantValue==Value
 ParamDesignator60=R45
-Variation66=Designator=R46|UniqueId=\JBOQDPNK\PTQNGEXB|Kind=1|AlternatePart==Value
+Variation64=Designator=R46|UniqueId=\JBOQDPNK\PTQNGEXB|Kind=1|AlternatePart==Value
 ParamVariation61=ParameterName=Comment|VariantValue==Value
 ParamDesignator61=R46
-Variation67=Designator=R245|UniqueId=\JBOQDPNK\HARVSHPE|Kind=1|AlternatePart==Value
+Variation65=Designator=R245|UniqueId=\JBOQDPNK\HARVSHPE|Kind=1|AlternatePart==Value
 ParamVariation62=ParameterName=Comment|VariantValue==Value
 ParamDesignator62=R245
-Variation68=Designator=R52|UniqueId=\JBOQDPNK\PXCIWGUL|Kind=1|AlternatePart==Value
+Variation66=Designator=R52|UniqueId=\JBOQDPNK\PXCIWGUL|Kind=1|AlternatePart==Value
 ParamVariation63=ParameterName=Comment|VariantValue==Value
 ParamDesignator63=R52
-Variation69=Designator=R47|UniqueId=\JBOQDPNK\MTKMSNKM|Kind=1|AlternatePart==Value
+Variation67=Designator=R47|UniqueId=\JBOQDPNK\MTKMSNKM|Kind=1|AlternatePart==Value
 ParamVariation64=ParameterName=Comment|VariantValue==Value
 ParamDesignator64=R47
-Variation70=Designator=R248|UniqueId=\SFQGSODT\SULPIGYQ|Kind=1|AlternatePart= 
-Variation71=Designator=R269|UniqueId=\SFQGSODT\QBPFMEVY|Kind=1|AlternatePart= 
-Variation72=Designator=R270|UniqueId=\SFQGSODT\UPNWVHSV|Kind=1|AlternatePart= 
-Variation73=Designator=R271|UniqueId=\SFQGSODT\QDPRMVYG|Kind=1|AlternatePart= 
-Variation74=Designator=R272|UniqueId=\SFQGSODT\CKAUKNUY|Kind=1|AlternatePart= 
-Variation75=Designator=R273|UniqueId=\SFQGSODT\ERMSBVTV|Kind=1|AlternatePart= 
-Variation76=Designator=R274|UniqueId=\SFQGSODT\KJJXERQW|Kind=1|AlternatePart= 
-Variation77=Designator=R275|UniqueId=\SFQGSODT\KOQPQZJW|Kind=1|AlternatePart= 
-Variation78=Designator=R257|UniqueId=\QUIVSWDM|Kind=0|AlternatePart= 
-Variation79=Designator=IC34|UniqueId=\KJPUZUFR|Kind=1|AlternatePart= 
+Variation68=Designator=R248|UniqueId=\SFQGSODT\SULPIGYQ|Kind=1|AlternatePart= 
+Variation69=Designator=R269|UniqueId=\SFQGSODT\QBPFMEVY|Kind=1|AlternatePart= 
+Variation70=Designator=R270|UniqueId=\SFQGSODT\UPNWVHSV|Kind=1|AlternatePart= 
+Variation71=Designator=R271|UniqueId=\SFQGSODT\QDPRMVYG|Kind=1|AlternatePart= 
+Variation72=Designator=R272|UniqueId=\SFQGSODT\CKAUKNUY|Kind=1|AlternatePart= 
+Variation73=Designator=R273|UniqueId=\SFQGSODT\ERMSBVTV|Kind=1|AlternatePart= 
+Variation74=Designator=R274|UniqueId=\SFQGSODT\KJJXERQW|Kind=1|AlternatePart= 
+Variation75=Designator=R275|UniqueId=\SFQGSODT\KOQPQZJW|Kind=1|AlternatePart= 
+Variation76=Designator=IC34|UniqueId=\KJPUZUFR|Kind=1|AlternatePart= 
+Variation77=Designator=R27|UniqueId=\JBOQDPNK\LUBPCZSY|Kind=1|AlternatePart= 
+Variation78=Designator=R81|UniqueId=\JBOQDPNK\YWGGAXSP|Kind=1|AlternatePart= 
 ParamVariationCount=64
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Phaser\Design Rule Check - Phaser.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Baseband.brd
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Baseband.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Baseband.step
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Upconverter.brd
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Upconverter.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Upconverter.step
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Qjz5A0E.xls
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzD197.xls
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1445,7 +1487,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Phaser
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1552,12 +1594,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1567,7 +1619,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=PCB 3D Print
@@ -1585,7 +1637,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType5=PCBDrawing
@@ -1597,7 +1649,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType6=PCBLIB Print
 OutputName6=PCBLIB Prints
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=PDF3D
@@ -1630,6 +1682,18 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1667,13 +1731,13 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType2=CompositeDrill
 OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=Drill
 OutputName3=Drill Drawing/Guides
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Final
@@ -1690,17 +1754,17 @@ OutputDefault5=0
 OutputType6=Gerber X2
 OutputName6=Gerber X2 Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 OutputType7=IPC2581
 OutputName7=IPC-2581 Files
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 OutputType8=Mask
 OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=NC Drill
@@ -1718,7 +1782,7 @@ Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Mechanical 1=Fals
 OutputType11=Plane
 OutputName11=Power-Plane Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Test Points
@@ -1775,6 +1839,18 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=Export Comments
+OutputName7=Export Comments
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=BOM_ReportCompare
+OutputName8=BOM Compare
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1988,11 +2064,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=AnsysEDB
-OutputName12=Ansys EDB
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=SiSoft
+OutputName14=SiSoft (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -2316,12 +2417,13 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
