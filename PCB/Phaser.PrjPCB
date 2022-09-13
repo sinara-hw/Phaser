@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for Phaser
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -666,7 +666,7 @@ UniqueID=8ACD7A66-462E-4EC8-B547-9D4B64E261DD
 Description=Baseband
 AllowFabrication=0
 ParameterCount=0
-VariationCount=199
+VariationCount=211
 Variation1=Designator=R59|UniqueId=\SFQGSODT\GBBYBDVN|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R59
@@ -1224,6 +1224,18 @@ Variation196=Designator=R27|UniqueId=\JBOQDPNK\LUBPCZSY|Kind=1|AlternatePart=
 Variation197=Designator=R81|UniqueId=\JBOQDPNK\YWGGAXSP|Kind=1|AlternatePart= 
 Variation198=Designator=HS3A|UniqueId=\DOBOYDEZ\HOEWRROQ|Kind=1|AlternatePart= 
 Variation199=Designator=HS3B|UniqueId=\JKJSOJMD\HOEWRROQ|Kind=1|AlternatePart= 
+Variation200=Designator=TR7|UniqueId=\SFQGSODT\MIIHTNKS|Kind=1|AlternatePart= 
+Variation201=Designator=TR9|UniqueId=\SFQGSODT\LQDMCUZX|Kind=1|AlternatePart= 
+Variation202=Designator=TR10|UniqueId=\SFQGSODT\BFXYDBQV|Kind=1|AlternatePart= 
+Variation203=Designator=TR11|UniqueId=\SFQGSODT\EHLRTAXD|Kind=1|AlternatePart= 
+Variation204=Designator=C382|UniqueId=\SFQGSODT\GIUUMDSJ|Kind=1|AlternatePart= 
+Variation205=Designator=C383|UniqueId=\SFQGSODT\YACEVRHD|Kind=1|AlternatePart= 
+Variation206=Designator=C384|UniqueId=\SFQGSODT\AKZTEEYP|Kind=1|AlternatePart= 
+Variation207=Designator=C385|UniqueId=\SFQGSODT\KKSYXNFZ|Kind=1|AlternatePart= 
+Variation208=Designator=C386|UniqueId=\SFQGSODT\DMLAEJFT|Kind=1|AlternatePart= 
+Variation209=Designator=C387|UniqueId=\SFQGSODT\NQHWSSUN|Kind=1|AlternatePart= 
+Variation210=Designator=C388|UniqueId=\SFQGSODT\HLCLDICM|Kind=1|AlternatePart= 
+Variation211=Designator=C389|UniqueId=\SFQGSODT\MKFWCGXM|Kind=1|AlternatePart= 
 ParamVariationCount=179
 
 [ProjectVariant2]
@@ -1231,7 +1243,7 @@ UniqueID=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=Upconverter
 AllowFabrication=0
 ParameterCount=0
-VariationCount=78
+VariationCount=108
 Variation1=Designator=R8A|UniqueId=\UNXBKWRT\DMEIORED|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R8A
@@ -1364,28 +1376,28 @@ ParamVariation43=ParameterName=Comment|VariantValue==Value
 ParamDesignator43=TR5
 Variation45=Designator=J13|UniqueId=\SFQGSODT\QXSFBQVD|Kind=1|AlternatePart= 
 Variation46=Designator=J15|UniqueId=\SFQGSODT\QOLRXJJD|Kind=1|AlternatePart= 
-Variation47=Designator=R184|UniqueId=\SFQGSODT\VSISJKCC|Kind=1|AlternatePart==Value
+Variation47=Designator=R184|UniqueId=\SFQGSODT\VSISJKCC|Kind=0|AlternatePart==Value
 ParamVariation44=ParameterName=Comment|VariantValue==Value
 ParamDesignator44=R184
-Variation48=Designator=R258|UniqueId=\SFQGSODT\OZKRAVOW|Kind=1|AlternatePart==Value
+Variation48=Designator=R258|UniqueId=\SFQGSODT\OZKRAVOW|Kind=0|AlternatePart==Value
 ParamVariation45=ParameterName=Comment|VariantValue==Value
 ParamDesignator45=R258
-Variation49=Designator=R263|UniqueId=\SFQGSODT\IGMPTWLY|Kind=1|AlternatePart==Value
+Variation49=Designator=R263|UniqueId=\SFQGSODT\IGMPTWLY|Kind=0|AlternatePart==Value
 ParamVariation46=ParameterName=Comment|VariantValue==Value
 ParamDesignator46=R263
-Variation50=Designator=R264|UniqueId=\SFQGSODT\JZLTTDSS|Kind=1|AlternatePart==Value
+Variation50=Designator=R264|UniqueId=\SFQGSODT\JZLTTDSS|Kind=0|AlternatePart==Value
 ParamVariation47=ParameterName=Comment|VariantValue==Value
 ParamDesignator47=R264
-Variation51=Designator=R268|UniqueId=\SFQGSODT\DOZBEWLG|Kind=1|AlternatePart==Value
+Variation51=Designator=R268|UniqueId=\SFQGSODT\DOZBEWLG|Kind=0|AlternatePart==Value
 ParamVariation48=ParameterName=Comment|VariantValue==Value
 ParamDesignator48=R268
-Variation52=Designator=R267|UniqueId=\SFQGSODT\EAEWUKXU|Kind=1|AlternatePart==Value
+Variation52=Designator=R267|UniqueId=\SFQGSODT\EAEWUKXU|Kind=0|AlternatePart==Value
 ParamVariation49=ParameterName=Comment|VariantValue==Value
 ParamDesignator49=R267
-Variation53=Designator=R266|UniqueId=\SFQGSODT\OENVCSWM|Kind=1|AlternatePart==Value
+Variation53=Designator=R266|UniqueId=\SFQGSODT\OENVCSWM|Kind=0|AlternatePart==Value
 ParamVariation50=ParameterName=Comment|VariantValue==Value
 ParamDesignator50=R266
-Variation54=Designator=R265|UniqueId=\SFQGSODT\WLDCZBXS|Kind=1|AlternatePart==Value
+Variation54=Designator=R265|UniqueId=\SFQGSODT\WLDCZBXS|Kind=0|AlternatePart==Value
 ParamVariation51=ParameterName=Comment|VariantValue==Value
 ParamDesignator51=R265
 Variation55=Designator=C359|UniqueId=\JBOQDPNK\WMRVYVIA|Kind=1|AlternatePart==Value
@@ -1427,17 +1439,47 @@ ParamDesignator63=R52
 Variation67=Designator=R47|UniqueId=\JBOQDPNK\MTKMSNKM|Kind=1|AlternatePart==Value
 ParamVariation64=ParameterName=Comment|VariantValue==Value
 ParamDesignator64=R47
-Variation68=Designator=R248|UniqueId=\SFQGSODT\SULPIGYQ|Kind=1|AlternatePart= 
-Variation69=Designator=R269|UniqueId=\SFQGSODT\QBPFMEVY|Kind=1|AlternatePart= 
+Variation68=Designator=R248|UniqueId=\SFQGSODT\SULPIGYQ|Kind=0|AlternatePart= 
+Variation69=Designator=R269|UniqueId=\SFQGSODT\QBPFMEVY|Kind=0|AlternatePart= 
 Variation70=Designator=R270|UniqueId=\SFQGSODT\UPNWVHSV|Kind=1|AlternatePart= 
 Variation71=Designator=R271|UniqueId=\SFQGSODT\QDPRMVYG|Kind=1|AlternatePart= 
-Variation72=Designator=R272|UniqueId=\SFQGSODT\CKAUKNUY|Kind=1|AlternatePart= 
-Variation73=Designator=R273|UniqueId=\SFQGSODT\ERMSBVTV|Kind=1|AlternatePart= 
-Variation74=Designator=R274|UniqueId=\SFQGSODT\KJJXERQW|Kind=1|AlternatePart= 
-Variation75=Designator=R275|UniqueId=\SFQGSODT\KOQPQZJW|Kind=1|AlternatePart= 
+Variation72=Designator=R272|UniqueId=\SFQGSODT\CKAUKNUY|Kind=0|AlternatePart= 
+Variation73=Designator=R273|UniqueId=\SFQGSODT\ERMSBVTV|Kind=0|AlternatePart= 
+Variation74=Designator=R274|UniqueId=\SFQGSODT\KJJXERQW|Kind=0|AlternatePart= 
+Variation75=Designator=R275|UniqueId=\SFQGSODT\KOQPQZJW|Kind=0|AlternatePart= 
 Variation76=Designator=IC34|UniqueId=\KJPUZUFR|Kind=1|AlternatePart= 
 Variation77=Designator=R27|UniqueId=\JBOQDPNK\LUBPCZSY|Kind=1|AlternatePart= 
 Variation78=Designator=R81|UniqueId=\JBOQDPNK\YWGGAXSP|Kind=1|AlternatePart= 
+Variation79=Designator=R39|UniqueId=\SFQGSODT\OBTQYMSY|Kind=1|AlternatePart= 
+Variation80=Designator=R37|UniqueId=\SFQGSODT\BQRAUIOE|Kind=1|AlternatePart= 
+Variation81=Designator=R59|UniqueId=\SFQGSODT\GBBYBDVN|Kind=1|AlternatePart= 
+Variation82=Designator=R2|UniqueId=\SFQGSODT\IZDVAMHU|Kind=1|AlternatePart= 
+Variation83=Designator=R17|UniqueId=\SFQGSODT\QMQHUTAV|Kind=1|AlternatePart= 
+Variation84=Designator=R3|UniqueId=\SFQGSODT\ZWUKBZTE|Kind=1|AlternatePart= 
+Variation85=Designator=R227|UniqueId=\SFQGSODT\EXXUGKVT|Kind=1|AlternatePart= 
+Variation86=Designator=R228|UniqueId=\SFQGSODT\OUTRXJMC|Kind=1|AlternatePart= 
+Variation87=Designator=R32|UniqueId=\SFQGSODT\IYKMOILS|Kind=1|AlternatePart= 
+Variation88=Designator=R50|UniqueId=\SFQGSODT\JNUVADCK|Kind=1|AlternatePart= 
+Variation89=Designator=R68|UniqueId=\SFQGSODT\LBMTLOJL|Kind=1|AlternatePart= 
+Variation90=Designator=R69|UniqueId=\SFQGSODT\PHKKVFNS|Kind=1|AlternatePart= 
+Variation91=Designator=R229|UniqueId=\SFQGSODT\LTWHNUFA|Kind=1|AlternatePart= 
+Variation92=Designator=R230|UniqueId=\SFQGSODT\EONUXHMC|Kind=1|AlternatePart= 
+Variation93=Designator=R77|UniqueId=\SFQGSODT\STOQQAWH|Kind=1|AlternatePart= 
+Variation94=Designator=R62|UniqueId=\SFQGSODT\XWFCNAIW|Kind=1|AlternatePart= 
+Variation95=Designator=R66|UniqueId=\SFQGSODT\ABUODLOJ|Kind=1|AlternatePart= 
+Variation96=Designator=R85|UniqueId=\SFQGSODT\WXDMSDZR|Kind=1|AlternatePart= 
+Variation97=Designator=R61|UniqueId=\SFQGSODT\AJSMGWTB|Kind=1|AlternatePart= 
+Variation98=Designator=R67|UniqueId=\SFQGSODT\TQXDZSRQ|Kind=1|AlternatePart= 
+Variation99=Designator=R76|UniqueId=\SFQGSODT\XOCTRIMU|Kind=1|AlternatePart= 
+Variation100=Designator=R86|UniqueId=\SFQGSODT\TLQQGJJP|Kind=1|AlternatePart= 
+Variation101=Designator=R11|UniqueId=\SFQGSODT\VKMLZTCN|Kind=1|AlternatePart= 
+Variation102=Designator=R12|UniqueId=\SFQGSODT\JNRJDIGG|Kind=1|AlternatePart= 
+Variation103=Designator=R13|UniqueId=\SFQGSODT\STDUDZFR|Kind=1|AlternatePart= 
+Variation104=Designator=R15|UniqueId=\SFQGSODT\NCVCLQKH|Kind=1|AlternatePart= 
+Variation105=Designator=R16|UniqueId=\SFQGSODT\SGNZTIVX|Kind=1|AlternatePart= 
+Variation106=Designator=R21|UniqueId=\SFQGSODT\RUGLJZOC|Kind=1|AlternatePart= 
+Variation107=Designator=R24|UniqueId=\SFQGSODT\IQOXZQNK|Kind=1|AlternatePart= 
+Variation108=Designator=R31|UniqueId=\SFQGSODT\TNHHZKTU|Kind=1|AlternatePart= 
 ParamVariationCount=64
 
 [GeneratedDocument1]
@@ -1468,14 +1510,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Phaser\Panel\Panel_Phaser_Upconverter.step
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\Qjz5A0E.xls
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzD197.xls
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1487,7 +1521,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for Phaser
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1594,22 +1628,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1682,18 +1706,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -2064,36 +2076,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=SiSoft
-OutputName14=SiSoft (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -2423,7 +2405,6 @@ Type123=1
 Type124=1
 Type125=1
 Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
