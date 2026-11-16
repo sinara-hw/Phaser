@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=DIOT_Baseband
+CurrentVariant=EEM_Baseband
 
 [Preferences]
 PrefsVaultGUID=
@@ -905,7 +905,7 @@ UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM_Baseband
 AllowFabrication=0
 ParameterCount=0
-VariationCount=274
+VariationCount=280
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -1780,6 +1780,12 @@ ParamDesignator299=T_R12
 Variation274=Designator=T_R11|UniqueId=\LOMZBQWS\YEYGBVCZ|Kind=1|AlternatePart==Value
 ParamVariation300=ParameterName=Comment|VariantValue==Value
 ParamDesignator300=T_R11
+Variation275=Designator=T_R4|UniqueId=\TAKSADSN\AQCRSOFD|Kind=1|AlternatePart=
+Variation276=Designator=T_R2|UniqueId=\TAKSADSN\KYKZMKUL|Kind=1|AlternatePart=
+Variation277=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=0|AlternatePart=
+Variation278=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=0|AlternatePart=
+Variation279=Designator=R282|UniqueId=\NSATRBBH\SUQVMLYP|Kind=1|AlternatePart=
+Variation280=Designator=T30|UniqueId=\NSATRBBH\UIAUSYAM|Kind=1|AlternatePart=
 ParamVariationCount=300
 
 [ProjectVariant2]
@@ -1787,7 +1793,7 @@ UniqueId=8B072CF4-7695-48C9-B596-86B3F599CC01
 Description=EEM_Upconverter
 AllowFabrication=0
 ParameterCount=0
-VariationCount=161
+VariationCount=167
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -2327,6 +2333,12 @@ ParamDesignator188=T_R12
 Variation161=Designator=T_R11|UniqueId=\LOMZBQWS\YEYGBVCZ|Kind=1|AlternatePart==Value
 ParamVariation189=ParameterName=Comment|VariantValue==Value
 ParamDesignator189=T_R11
+Variation162=Designator=T_R4|UniqueId=\TAKSADSN\AQCRSOFD|Kind=1|AlternatePart=
+Variation163=Designator=T_R2|UniqueId=\TAKSADSN\KYKZMKUL|Kind=1|AlternatePart=
+Variation164=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=0|AlternatePart=
+Variation165=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=0|AlternatePart=
+Variation166=Designator=R282|UniqueId=\NSATRBBH\SUQVMLYP|Kind=1|AlternatePart=
+Variation167=Designator=T30|UniqueId=\NSATRBBH\UIAUSYAM|Kind=1|AlternatePart=
 ParamVariationCount=189
 
 [ProjectVariant3]
@@ -2334,7 +2346,7 @@ UniqueId=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
 Description=DIOT_Baseband
 AllowFabrication=0
 ParameterCount=0
-VariationCount=239
+VariationCount=243
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -3048,6 +3060,10 @@ ParamDesignator236=T_R10
 Variation239=Designator=T_R9|UniqueId=\LOMZBQWS\IJRSYHFU|Kind=1|AlternatePart==Value
 ParamVariation237=ParameterName=Comment|VariantValue==Value
 ParamDesignator237=T_R9
+Variation240=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart=
+Variation241=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart=
+Variation242=Designator=R282|UniqueId=\NSATRBBH\SUQVMLYP|Kind=1|AlternatePart=
+Variation243=Designator=T30|UniqueId=\NSATRBBH\UIAUSYAM|Kind=1|AlternatePart=
 ParamVariationCount=237
 
 [ProjectVariant4]
@@ -3055,7 +3071,7 @@ UniqueId=BB1DC649-6385-4637-8012-D04662DEA35B
 Description=DIOT_Upconverter
 AllowFabrication=0
 ParameterCount=0
-VariationCount=126
+VariationCount=130
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -3434,6 +3450,10 @@ ParamDesignator125=T_R10
 Variation126=Designator=T_R9|UniqueId=\LOMZBQWS\IJRSYHFU|Kind=1|AlternatePart==Value
 ParamVariation126=ParameterName=Comment|VariantValue==Value
 ParamDesignator126=T_R9
+Variation127=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart=
+Variation128=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart=
+Variation129=Designator=R282|UniqueId=\NSATRBBH\SUQVMLYP|Kind=1|AlternatePart=
+Variation130=Designator=T30|UniqueId=\NSATRBBH\UIAUSYAM|Kind=1|AlternatePart=
 ParamVariationCount=126
 
 [GeneratedDocument1]
